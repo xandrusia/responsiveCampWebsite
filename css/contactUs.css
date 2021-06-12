@@ -1,0 +1,77 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(52, 61, 65);
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.navbar {
+    background-color: #282828 !important;
+}
+
+
+.some-page-wrapper {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
+  }
+  
+  
+  .blue-column {
+    background-color: #c3e5ec;
+    height: fit-content;
+    width: auto;
+    border-radius: 25px;
+  }
+  
+  
+  @media screen and (min-width: 800px) {
+    .column {
+      flex: 1
+    }
+  
+}
+  
+  .blue-column h1 {
+      text-align: center;
+      text-justify: auto;
+  }
+
+  .blue-column p {
+      text-justify: auto;
+      text-align: center;
+  }
+
+  * {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../images/contactUsTapeta.jpg");
+}
+.icon {
+	position: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+
+}
+.icon a {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background-color: #c3e5ec;
+	border-radius: 25px;
+	margin: 35px;
+	text-align: center;
+	font-size: 50px;
+	color: #333;
+}
+
+
+
